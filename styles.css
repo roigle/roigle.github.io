@@ -1,0 +1,68 @@
+/* azul brazos: #2b37c6 */
+
+body {
+    /*background-color: #EBEBEB;*/
+    background-color: #DEEAF4;
+    color: #221F3B;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a {
+    color: #DE6B35;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+header {
+    margin-top: 5%;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#pic {
+    position: absolute;
+    border-bottom: 7px solid #8d8f91;
+    border-radius: 5px;
+    -webkit-filter: drop-shadow(5px 5px 5px #666666);
+    filter: drop-shadow(5px 5px 5px #666666);
+}
+
+/* spinner from https://cssloaders.github.io/ */
+.loader {
+    width: 100px;
+    height: 100px;
+    /*position: absolute;*/
+    border-radius: 50%;
+    background: #fff;
+    animation: wave 3s ease-in infinite;
+}
+  
+@keyframes wave {
+   0% {  box-shadow:
+    0 0 0 0px rgba(255, 255,255, 1),
+    0 0 0 20px rgba(255, 255,255, 0.2),
+    0 0 0 40px rgba(255, 255,255, 0.6),
+    0 0 0 60px rgba(255, 255,255, 0.4),
+    0 0 0 80px rgba(255, 255,255, 0.2)
+    }
+    100% {  box-shadow:
+      0 0 0 80px rgba(255, 255,255, 0),
+      0 0 0 60px rgba(255, 255,255, 0.2),
+      0 0 0 40px rgba(255, 255,255, 0.4),
+      0 0 0 20px rgba(255, 255,255, 0.6),
+      0 0 0 0px rgba(255, 255,255, 1)
+    }
+}    
