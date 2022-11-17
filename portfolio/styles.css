@@ -177,3 +177,21 @@ footer a {
 footer a:hover {
     color: var(--grey);
 }
+
+.fa-circle {
+    color: var(--orange);
+}
+
+#go-up {
+    position: fixed;
+    bottom: 2%;
+    right: 0.5%;
+    z-index: 100;
+    display: none;
+}
+
+#go-up:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
