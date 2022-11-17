@@ -1,21 +1,12 @@
 /*
-Color palette: https://colorhunt.co/palette/eff5f5d6e4e5497174eb6440
-
-Color paletter 2: https://colorhunt.co/palette/112b3c205375f66b0eefefef
+    Color paletter 2: https://colorhunt.co/palette/112b3c205375f66b0eefefef
 */
 
 :root {
-    /* Palette 1
-    --whiteish: #F7F7F7; // changed from  #EFF5F5;
-    --grey: #D6E4E5;
-    --teal: #497174;
-    --orange: #EB6440;
-    */
     --whiteish: #EFEFEF;
     --grey: #D6E4E5;
     --blue: #112B3C;
     --orange: #F66B0E;
-
 }
 
 body {
